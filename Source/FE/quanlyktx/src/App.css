@@ -1,0 +1,86 @@
+.container_Cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 50px 2px;;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -450px;
+    background-color: rgba(2, 2, 2, 0.352);
+    padding: 40px;
+}
+
+.FormCustom {
+    background-color: white;
+    border-radius: 4px;
+    margin: auto;
+    padding: 40px;
+}
+
+.FormLoginCustom {
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.677);
+    text-align: center;
+}
+.FormLoginCustom label {
+    min-width: 150px;
+    font-weight: 600;
+}
+
+.FormLoginCustom button {
+    height: 40px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.backgroundLogin {
+    background-image: url('./accets/backgroundLogin/bgLogin2.jpg');
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 164px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.backgroundDangky{
+    background-image: url('./accets/backgroundLogin/bgLogin2.jpg');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 164px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.user_infor{
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.locPhong{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    min-width: 250px;
+}
+.ant-layout-sider{
+    background: rgb(255, 255, 255);
+    flex: 0 0 200px;
+    max-width: 200px;
+    min-width: 240px !important;
+    width: 200px;
+}
